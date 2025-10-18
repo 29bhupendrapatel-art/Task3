@@ -95,7 +95,7 @@ class ATM {
     }
 }
 
-// Main class to run the program
+
  class Main {
     public static void main(String[] args) {
         BankAccount userAccount = new BankAccount(5000); // Initial balance
@@ -103,3 +103,4 @@ class ATM {
         atm.start();
     }
 }
+
